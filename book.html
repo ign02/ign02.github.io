@@ -192,9 +192,9 @@
     <script>
         $(function() {
             var ma = "";
-            found = location.search.match(/[?&]ma=(\w*)/);
+            found = location.search.match(/ma=(.*)/);
             if (found) ma = found[1];
-            $("#txt_master").val(ma);
+            $("#txt_master").val(decodeURI(ma));
         });
     </script>
 </body>
