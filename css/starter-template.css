@@ -131,19 +131,23 @@ footer .container {
     text-decoration: none;
 }
 
+.titlepic {
+    width: 30vw;
+    height: 5vw;
+}
+
 @media (max-width: 768px) {
     .books2 a p {
         margin: 0;
         margin-top: 10px !important;
         margin-bottom: 20px;
     }
+    .titlepic {
+        width: 55vw;
+        height: 10vw;
+    }
 }
 
 .jumbotron label {
     color: gray;
-}
-
-.titlepic {
-    width: 30vw;
-    height: 5vw;
 }
