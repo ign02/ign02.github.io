@@ -142,3 +142,8 @@ footer .container {
 .jumbotron label {
     color: gray;
 }
+
+.titlepic {
+    width: 12rem;
+    height: 2rem;
+}
