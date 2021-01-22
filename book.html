@@ -189,6 +189,14 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/customcode.js"></script>
+    <script>
+        $(function() {
+            var ma = "";
+            found = location.search.match(/[?&]ma=(\w*)/);
+            if (found) ma = found[1];
+            $("#txt_master").val(ma);
+        });
+    </script>
 </body>
 
 </html>
