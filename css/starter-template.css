@@ -1,0 +1,144 @@
+body {
+    padding-top: 4rem;
+    background: url('../img/bgimg.png');
+    background-size: cover;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.navbar-light,
+.bg-light {
+    background-color: white !important;
+}
+
+button:focus {
+    outline-style: none;
+}
+
+footer .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.footer {
+    background-color: #e2e2e1;
+}
+
+.hovergallery img:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px #333;
+    -webkit-box-shadow: 0px 0px 10px #333;
+    -moz-box-shadow: 0px 0px 10px #333;
+    position: absolute;
+    z-index: 2;
+}
+
+.hovergallery img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.social-medias a {}
+
+.social-medias img {
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+    opacity: 1;
+}
+
+.carousel-control-next span,
+.carousel-control-prev span {
+    background-color: #c30e23;
+    border: 5px solid #c30e23;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-custom {
+    color: #fff !important;
+    background-color: #c30e23;
+    border-color: #c30e23;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: table;
+    margin: 0 auto;
+}
+
+.carddef {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.heightAuto {
+    height: auto;
+}
+
+.books1 a p {
+    background-color: #5a5757;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 2px;
+    border: 1px solid #5a5757;
+    border-radius: 20px;
+}
+
+.books2 a p {
+    background-color: #956134;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 2px;
+    border: 1px solid #956134;
+    border-radius: 20px;
+}
+
+.books1 a,
+.books2 a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .books2 a p {
+        margin: 0;
+        margin-top: 10px !important;
+        margin-bottom: 20px;
+    }
+}
+
+.jumbotron label {
+    color: gray;
+}
